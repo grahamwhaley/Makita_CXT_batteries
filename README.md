@@ -153,6 +153,38 @@ off the rest of the cirucuit if the battery voltage is too low.
 
 ![usb2](./pictures/usb2.JPG)
 
+#### Adding PowerPoles
+
+I've now added my PowerPole modification to the USB pack. After a lot of staring at the case I
+eventually identified a place I could add the powerpole connectors in whilst still keeping the
+USB charging circuit.
+
+In the below picture you can see where I hollowed out space just behind the belt clip to place
+the connectors. You can also see how I simply wired the connectors directly to the battery
+terminals. I used some very flexible silicon 20awg, 0.5mm2 wires. Now, those are not going to
+be rated for the full 20A these batteries are capable of delivering, but then I never expect to
+pull more than maybe 5A maximum ever. If you are going to do this mod, make sure you use an
+appropriately sized wire for you application.
+
+![usb_internals](./pictures/usb_internals.JPG)
+
+Once you have made the hole in the case, do a test fit to ensure you get the correct lenght
+of hookup wire. In the below picture you can see how the wires route internally past the belt
+clip and the screw post to nicely land on the correct side of the PCB.
+
+![usb_fitting](./pictures/usb_fitting.JPG)
+
+And finally, assemble your unit. Sadly there was not quite enough space in the belt clip area
+to make a really nice secure fit around the groove in the powerpoles, so they stick out a little
+further than necessary. I applied some toughened epoxy around the powerpole after fitup to ensure
+a tight stable fit. That may make it slightly harder to get the case apart later if necessary,
+but better to have the powerpoles not pulling out.
+
+Here is the final unit fitted up to a battery. The USB adapter still works, and the powerpoles are
+suppling 12.2v or thereabouts with a full pack. Success!
+
+![usb_finished](./pictures/usb_finished.JPG)
+
 ## Next steps
 
 ### Find a dead battery
